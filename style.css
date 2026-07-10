@@ -9,6 +9,7 @@
     margin: 10px;
     padding: 5px;
     border-radius: 5px;
+    cursor: pointer;
 
 }
 
@@ -35,7 +36,7 @@ a {
 }
 
 main {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./banner.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
     height: 130vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,12 +54,16 @@ main {
     text-align: center;
     display: grid;
     gap: 20px;
+
 }
+
+
 
 .bg-text button {
     width: 20%;
-    margin-left: 45%;
+    margin-left: 40%;
     margin-top: 30%;
+    cursor: pointer;
 
 }
 
@@ -68,4 +73,55 @@ main {
 
 .bg-text h1 {
     margin-top: 20px;
+}
+
+/* speaker section */
+.speaker {
+    width: 80%;
+    margin: 220px auto;
+    padding: 60px 0;
+
+
+}
+
+.speaker h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+
+.speakers-container {
+    display: flex;
+    flex-wrap: wrap;
+
+
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.speakers-container img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+
+
+}
+
+.card {
+    width: 45%;
+}
+
+.title {
+    font-size: 10px;
+    color: rgb(83, 83, 252);
+
+    margin: 8px 0;
+}
+
+.workplace {
+    font-size: 10px;
+    color: dimgray;
+    margin-top: 5px;
 }
