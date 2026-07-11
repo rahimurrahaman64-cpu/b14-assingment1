@@ -294,9 +294,81 @@ section {
 
 }
 
+/* Registration sec */
+.registration {
+    margin-top: 50px;
+    background-color: rgb(198, 198, 198);
+    padding: 50px 0;
+}
+
+.reg-tittle {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.reg-tittle h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.reg-tittle p {
+    color: black;
+    font-size: 18px;
+}
+
+.reg-form {
+    width: 400px;
+    margin: auto;
+    background-color: rgb(83, 83, 252);
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.reg-form p {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: rgb(11, 11, 11);
+    font-size: 30;
+
+}
+
+.reg-form input,
+.reg-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+
+}
+
+.reg-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(11, 11, 11);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.reg-form button:hover {
+    background-color: rgb(102, 102, 233);
+    /* padding: 10px; */
+    ;
+}
+
+
 /* footer section */
 footer {
-    background-color: rgb(184, 182, 182);
+    background-color: rgb(220, 220, 220);
     padding: 50px 10px;
     margin-top: 50px;
 }
