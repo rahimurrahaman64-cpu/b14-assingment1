@@ -81,7 +81,7 @@ main {
 /* speaker section */
 .speaker {
     width: 80%;
-    margin: 150px auto;
+    margin: 300px auto;
     padding: 60px 0;
 
 
@@ -139,7 +139,7 @@ main {
 }
 
 section {
-    margin-top: 700px;
+    margin-top: 900px;
     display: grid;
     justify-content: center;
     gap: 20px;
@@ -402,7 +402,7 @@ footer {
 }
 
 .coppyright {
-    font-size: 10px;
+    font-size: 18px;
     text-align: center;
-    color: white;
+    color: black;
 }
