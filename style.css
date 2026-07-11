@@ -35,7 +35,7 @@ a {
     color: rgb(134, 134, 134);
 }
 
-/* main {
+main {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
     height: 100vh;
     background-repeat: no-repeat;
@@ -48,15 +48,9 @@ a {
 
 
 
-} */
-
-.hero {
-    /* background-image: ...; */
-    height: 100vh;
-    display: grid;
-    place-items: center;
-    margin-top: 0;
 }
+
+
 
 .bg-text {
     color: white;
