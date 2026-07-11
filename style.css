@@ -109,6 +109,7 @@ main {
     width: 100%;
 
     display: block;
+    border-radius: 6px;
 
 
 }
@@ -291,4 +292,45 @@ section {
 .team-card li {
     margin-top: 5px;
 
+}
+
+/* footer section */
+footer {
+    background-color: rgb(184, 182, 182);
+    padding: 50px 10px;
+    margin-top: 50px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 100px;
+
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icons img {
+    width: 28px;
+    cursor: pointer;
+
+}
+
+.footer hr {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid rgb(83, 83, 252);
+}
+
+.coppyright {
+    font-size: 10px;
+    text-align: center;
+    color: white;
 }
